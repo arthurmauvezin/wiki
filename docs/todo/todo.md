@@ -2,6 +2,8 @@
 
 ## Bash
 * Finish command line shortcut
+  * https://gist.github.com/P7h/d5631d640ab91ed4a8e2e4732ff691d9
+  * https://skorks.com/2009/09/bash-shortcuts-for-maximum-productivity/
 * pretty Json (alias prettyjson='python -m json.tool') and jq
 
 ## Database

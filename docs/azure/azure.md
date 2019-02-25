@@ -22,11 +22,11 @@ az acr repository delete -n registry --repository debian --tag jessie-slim1
 ```
 
 ## Create security credentials for azure registry
-Documentation: https://blogs.msdn.microsoft.com/stevelasker/2016/11/17/azure-container-registry-user-accounts/
+[ACR user accounts documentation](https://blogs.msdn.microsoft.com/stevelasker/2016/11/17/azure-container-registry-user-accounts/)
 
 ### Create Read/Write user for azure registry 
 ```bash
-az ad sp create-for-rbac --scopes subscriptions/<subscription_id>/resourceGroups/<group_id>/providers/Microsoft.ContainerRegistry/registries/registry --role Contributor --password <password>
+az ad sp create-for-rbac --scopes subscriptions/<subscription_id>/resourceGroups/<group_id>/providers/Microsoft.ContainerRegistry/registries/registry --role Contributor --password <password> --years <N>
 ```
 
 #### Setup docker login Read/Write
@@ -36,7 +36,7 @@ mkdir -p /home/<user>/.docker/ && echo "{\"auths\": {\"registry\": {\"auth\": \"
 
 ### Create Read Only user for azure registry 
 ```bash
-az ad sp create-for-rbac --scopes subscriptions/<subscription_id>/resourceGroups/<group_id>/providers/Microsoft.ContainerRegistry/registries/registry --role Reader --password <password>
+az ad sp create-for-rbac --scopes subscriptions/<subscription_id>/resourceGroups/<group_id>/providers/Microsoft.ContainerRegistry/registries/registry --role Reader --password <password> --years <N>
 ```
 #### Setup docker login Read Only
 

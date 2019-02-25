@@ -1,4 +1,4 @@
-# Welcome to our personal documentation
+# Welcome to my personal documentation
 
 The goal of this documentation is to stop `stack overflow syndrom` (going to same page every time I search for something, and re-reading full page) and capitalize on all stuff I learn here instead.
 
