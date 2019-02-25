@@ -19,6 +19,15 @@ theme:
   logo:
     icon: 'help'
 
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/arthurmauvezin'
+    - type: 'twitter'
+      link: 'https://twitter.com/arthurmauvezin'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/arthurmauvezin'
+
 markdown_extensions:
   - admonition        # Warning, info boxes
   - codehilite        # Color in snippet, line number, highlight line
