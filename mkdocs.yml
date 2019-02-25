@@ -1,0 +1,62 @@
+site_name: Documentation
+site_description: Open source documentation about DevOps Engineer work and other stuff
+site_author: arthurmauvezin
+
+repo_name: 'Github'
+repo_url: 'https://github.com/arthurmauvezin/wiki/'
+
+docs_dir: 'docs'
+
+theme:
+  name: 'material'
+  #include_sidebar: true
+  favicon: 'assets/images/help.icon.png'
+  palette:
+    primary: 'amber'
+    accent: 'deep orange'
+  feature:
+    tabs: false
+  logo:
+    icon: 'help'
+
+markdown_extensions:
+  - admonition        # Warning, info boxes
+  - codehilite        # Color in snippet, line number, highlight line
+  - toc:             # Add anchor to all titles 
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Azure:
+    - 'CLI': 'azure/azure.md'
+  - Bash:
+    - 'Scripting': 'bash/scripting.md'
+    - 'CLI Shortcuts': 'bash/command_line_shortcut.md'
+  - Database:
+    - 'Postgres': 'database/postgres.md'
+  - Docker:
+    - 'Setup': 'docker/setup.md'
+    - 'CLI': 'docker/command.md'
+    - 'docker-compose': 'docker/compose.md'
+    - 'Dockerfile': 'docker/dockerfile.md'
+    - 'Template': 'docker/template.md'
+  - Fedora:
+    - 'System & Network': 'fedora/sysnet.md'
+    - 'Fix': 'fedora/fix.md'
+    - 'Setup': 'fedora/setup.md'
+  - Git: 'git/git.md'
+  - Interview:
+    - 'Question': 'interview/personal.md'
+    - 'System Administration': 'interview/sysadmin.md'
+  - Jenkins:
+    - 'Jenkinsfile': 'jenkins/jenkinsfile.md'
+  - Network:
+    - 'Network': 'network/network.md'
+    - 'tcpdump': 'network/tcpdump.md'
+  - Python: 'python/python.md'
+  - System:
+    - 'System': 'system/system.md'
+    - 'Crontab': 'system/cron.md'
+  - Vim:
+    - 'Useful': 'vim/vim.md'
+    - 'Cheatsheet': 'vim/cheatsheet.md'
