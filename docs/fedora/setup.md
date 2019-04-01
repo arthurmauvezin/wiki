@@ -1,5 +1,12 @@
 # Setup Fedora
 
+## Install fedora
+* Get latest iso
+* Install mediawriter
+```bash
+sudo dnf install mediawriter
+```
+
 ## Tools
 ```bash
 sudo dnf -y install vim

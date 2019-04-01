@@ -2,9 +2,15 @@
 
 * Asciinema
 * FB CTF
+* OpenFaas
+* OpenProject
+* Portworx - Elastic block storage for containers
+* Taiga
+* RethinkDB
+* RocketChat - Slack mais open source
+* Weavescope
 * Zinst
 * Zammad
-* Weavescope
 
 Rancher
 * Rancher Backup 
@@ -13,7 +19,7 @@ Rancher
 * Rancher Layer2 Flat
 * Rancher CI Service
 * Rancher Secrets
-* Rancher secret bridge
+* rancher-bench-security
 
 * Kafka
 * Selenium
