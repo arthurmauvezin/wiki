@@ -126,7 +126,7 @@ sudo dnf install bluez-hid2hci
 
 ## gnome themes and tweak tools
 ```bash
-sudo dnf install gnome-tweak-tool.noarch
+sudo dnf install gnome-tweak-tool
 ```
 From here setup :
 * Dark theme

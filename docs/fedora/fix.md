@@ -1,5 +1,10 @@
 # Fix Fedora
 
+## Slow when stopping - firewalld
+> See [this link](https://bugzilla.redhat.com/show_bug.cgi?id=1294415)
+
+Modify /etc/firewalld/firewalld.conf and put CleanupOnExit=no instead of yes.
+
 ## Bluetooth not working
 * https://forums.fedoraforum.org/showthread.php?315528-Bluetooth-not-found
 * https://fedoraproject.org/wiki/Documentation/Bluetooth

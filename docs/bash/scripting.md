@@ -195,3 +195,8 @@ new_line="my new line"
 sed -i "${line_number}a${new_line}" my_file
 ```
 
+## Replace some text on line matching with word
+```bash
+sed -i '/<word>/s/<from>/<to>/' my_file
+```
+

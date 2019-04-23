@@ -40,3 +40,8 @@ yiw
 ciw[CTRL-R]0[Esc]
 . 	# Redo
 ```
+
+## Delete all lines containing word
+```bash
+:g/<word>/d
+```
