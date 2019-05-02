@@ -38,6 +38,7 @@ set -euo pipefail
 * set -e : If command fails, make the script exit (not resuming on next line)
 * set -u : Treat unset variables as an error and exit
 * set -o pipefail : cause a pipeline (command | command) to fail if one of the subcommand fails
+* set -x : print each command before executing it
 
 ## Parameter substitution
 ### Default Value ${:-}
@@ -200,3 +201,7 @@ sed -i "${line_number}a${new_line}" my_file
 sed -i '/<word>/s/<from>/<to>/' my_file
 ```
 
+## Grep exclusion
+```bash
+grep -r --color --exclude-dir={custom,lib,scripts} --exclude={*.xml,error_log} "beta" .
+```
