@@ -64,6 +64,7 @@ nav:
   - Network:
     - 'Network': 'network/network.md'
     - 'tcpdump': 'network/tcpdump.md'
+  - Presentation: 'presentation/presentation.md'
   - Python: 'python/python.md'
   - System:
     - 'System': 'system/system.md'
