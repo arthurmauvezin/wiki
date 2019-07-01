@@ -205,3 +205,25 @@ sed -i '/<word>/s/<from>/<to>/' my_file
 ```bash
 grep -r --color --exclude-dir={custom,lib,scripts} --exclude={*.xml,error_log} "beta" .
 ```
+
+## Extract string match between words from file
+### Grep way
+```bash
+grep -oP '(?<=<from>).*(?=<to>)' <my_file>
+```
+
+### Sed way
+```bash
+sed -rn 's/<from>(.*)<to>/\1/p' <my_file>
+```
+
+## Parse json from command line
+Use `jq`command to parse output
+Example:
+```bash
+curl -X GET "<url>" | jq
+```
+
+```bash
+output | jq ".[].project_id"
+```

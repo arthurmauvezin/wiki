@@ -46,6 +46,7 @@ nav:
     - 'Postgres': 'database/postgres.md'
   - Docker:
     - 'Setup': 'docker/setup.md'
+    - 'Debug': 'docker/debug.md'
     - 'CLI': 'docker/command.md'
     - 'docker-compose': 'docker/compose.md'
     - 'Dockerfile': 'docker/dockerfile.md'
