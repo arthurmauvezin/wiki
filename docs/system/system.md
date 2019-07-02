@@ -10,6 +10,11 @@ free -m
 ### Free swap
 ```bash
 echo 1 > /proc/sys/vm/drop_caches
-swap off -a
+swapoff -a
 echo 1 > /proc/sys/vm/drop_caches
+```
+
+### Get state of swap
+```bash
+swapon -s
 ```
