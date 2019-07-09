@@ -6,3 +6,4 @@
 * [The Twelve-Factor App](https://12factor.net/)
 * [Blue/Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html)
+* [Learn Git Branching](https://learngitbranching.js.org/)
