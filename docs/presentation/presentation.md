@@ -2,17 +2,17 @@
 
 > Markdown is life !!
 
-## Setup mdview - markdown rendered
+## Render markdown in browser
+
+### From VIM
+Install [Markdown preview plugin](https://github.com/iamcco/markdown-preview.vim)
 
 ```bash
-sudo dnf install pandoc
-sudo pip install grip
-
-echo "mdview () { pandoc $1 | grip - -b }" >> ~/.bashrc
+# Usage in vim
+:MarkdownPreview
 ```
 
-## Render markdown in command line
-
+### From command line
 ```bash
 pandoc <file>.md | grip - -b
 
@@ -20,3 +20,7 @@ pandoc <file>.md | grip - -b
 mdview <file>.md
 ```
 
+## Setup Markdown editor and viewer
+
+[Python markdown editor](https://github.com/ncornette/Python-Markdown-Editor/) is a great tool when only having python on a computer or if you want simple markdwon edition.
+The best part is it integrates a VIM editor.
