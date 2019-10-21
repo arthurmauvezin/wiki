@@ -73,4 +73,5 @@ nav:
     - 'Crontab': 'system/cron.md'
   - Vim:
     - 'Useful': 'vim/vim.md'
+    - 'IDE': 'vim/ide.md'
     - 'Cheatsheet': 'vim/cheatsheet.md'
