@@ -61,6 +61,7 @@ nav:
     - 'System Administration': 'interview/sysadmin.md'
   - Jenkins:
     - 'Jenkinsfile': 'jenkins/jenkinsfile.md'
+    - 'Libs': 'jenkins/lib.md'
   - Kubernetes:
     - 'Kubernetes': 'kubernetes/kubernetes.md'
   - Network:
