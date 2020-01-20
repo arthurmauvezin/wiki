@@ -58,6 +58,12 @@ Ctrl+H # Move to split left
 :b <buffer name>
 ```
 
+## Go to last buffer
+```
+Ctrl+o # Go to last buffer
+Ctrl+i # Go to next buffer
+```
+
 ## Fold Code
 ```
 <space>
