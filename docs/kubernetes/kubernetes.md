@@ -32,3 +32,29 @@ kubectl exec ${POD_NAME} -c ${CONTAINER_NAME} -- ${CMD} ${ARG1} ${ARG2} ... ${AR
 ```bash
 kubectl get endpoints ${SERVICE_NAME}
 ```
+
+## Tools
+
+### Stern - Grab multi pod logs
+[Stern GitHub repo](https://github.com/wercker/stern)
+
+Usage
+```
+stern pod-query [flags]
+```
+
+### Krew - Plugin manager
+[Krew GitHub repo](https://github.com/kubernetes-sigs/krew/)
+
+### Kubectl aliases
+[List aff useful bash aliases](https://ahmet.im/blog/kubectl-aliases/)
+
+### Kubectl ctx & ns - Change cluster and namespace on the go
+[Kubectx GitHub repo](https://github.com/ahmetb/kubectx)
+
+### Shpod - consistent training env image to work on Kube
+[Shpod GitHub repo](https://github.com/jpetazzo/shpod)
+
+
+
+
