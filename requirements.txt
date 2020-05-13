@@ -1,3 +1,3 @@
-mkdocs
-mkdocs-material 
-pygments
+mkdocs>=1.1
+mkdocs-material>=5.0
+Pygments>=2.4

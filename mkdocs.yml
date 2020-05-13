@@ -1,39 +1,57 @@
 site_name: Documentation
-site_description: Open source documentation about DevOps Engineer work and other stuff
+site_description: Open source documentation about IT tools and other stuff
 site_author: arthurmauvezin
 
-repo_name: 'Github'
-repo_url: 'https://github.com/arthurmauvezin/wiki/'
+repo_name: arthurmauvezin/wiki
+repo_url: https://github.com/arthurmauvezin/wiki
 
 docs_dir: 'docs'
 
 theme:
-  name: 'material'
-  language: 'en'
+  name: material
+  language: en
   #include_sidebar: true
-  favicon: 'assets/images/help.icon.png'
+  favicon: assets/images/wikipedia.icon.png
   palette:
-    primary: 'amber'
-    accent: 'deep orange'
-  feature:
-    tabs: false
-  logo:
-    icon: 'help'
+    primary: orange
+    accent: deep orange
+  features:
+    - tabs
+  icon:
+    logo: fontawesome/brands/wikipedia-w
 
 extra:
   social:
-    - type: 'github'
-      link: 'https://github.com/arthurmauvezin'
-    - type: 'twitter'
-      link: 'https://twitter.com/arthurmauvezin'
-    - type: 'linkedin'
-      link: 'https://www.linkedin.com/in/arthurmauvezin'
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/arthurmauvezin
+    - icon: fontawesome/brands/twitter-square
+      link: https://twitter.com/arthurmauvezin
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/arthurmauvezin
+
+google_analytics:
+  - UA-XXXXXXXX-X
+  - auto
 
 markdown_extensions:
   - admonition        # Warning, info boxes
   - codehilite        # Color in snippet, line number, highlight line
   - toc:             # Add anchor to all titles 
       permalink: true
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search # necessary for search to work
+    #- awesome-pages
 
 nav:
   - Home: index.md
