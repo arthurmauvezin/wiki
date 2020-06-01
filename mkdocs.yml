@@ -55,6 +55,8 @@ plugins:
 
 nav:
   - Home: index.md
+  - Agility:
+    - 'Tools': 'agility/tools.md'
   - Azure:
     - 'CLI': 'azure/azure.md'
   - Bash:
@@ -73,7 +75,8 @@ nav:
     - 'System & Network': 'fedora/sysnet.md'
     - 'Fix': 'fedora/fix.md'
     - 'Setup': 'fedora/setup.md'
-  - Git: 'git/git.md'
+  - Git: 
+    - 'Useful': 'git/git.md'
   - Interview:
     - 'Question': 'interview/personal.md'
     - 'System Administration': 'interview/sysadmin.md'
@@ -85,8 +88,10 @@ nav:
   - Network:
     - 'Network': 'network/network.md'
     - 'tcpdump': 'network/tcpdump.md'
-  - Presentation: 'presentation/presentation.md'
-  - Python: 'python/python.md'
+  - Presentation: 
+    - 'Tools': 'presentation/presentation.md'
+  - Python:
+    - 'Python': 'python/python.md'
   - System:
     - 'System': 'system/system.md'
     - 'Crontab': 'system/cron.md'
