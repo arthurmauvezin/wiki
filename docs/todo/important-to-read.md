@@ -7,6 +7,7 @@
 * [Blue/Green Deployment](https://martinfowler.com/bliki/BlueGreenDeployment.html)
 * [Canary Release](https://martinfowler.com/bliki/CanaryRelease.html)
 * [Learn Git Branching](https://learngitbranching.js.org/)
+* [BPMN](https://www.fun-mooc.fr/courses/course-v1:lyon3+26001+session04/about)
 
 # To watch 
 [Le précepteur](https://www.youtube.com/channel/UCvRgiAmogg7a_BgQ_Ftm6fA/featured)

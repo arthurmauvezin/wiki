@@ -19,7 +19,5 @@ git commit -m "Add YOUR-FILE-WITH-SENSITIVE-DATA to .gitignore"
 ```bash
 git clone <from_repo_url>
 git remote add newrepo <new_repo_url>
-git push newrepo '*:*'
-# For tags only
-git push newrepo --tags
+git push newrepo --tags 'refs/remotes/origin/*:refs/heads/*'
 ```
