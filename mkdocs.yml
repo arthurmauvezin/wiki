@@ -59,6 +59,7 @@ nav:
     - 'Tools': 'agility/tools.md'
   - Azure:
     - 'CLI': 'azure/azure.md'
+    - 'DevOps': 'azure/devops.md'
   - Bash:
     - 'Scripting': 'bash/scripting.md'
     - 'CLI Shortcuts': 'bash/command_line_shortcut.md'

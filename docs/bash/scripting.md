@@ -218,6 +218,7 @@ sed -rn 's/<from>(.*)<to>/\1/p' <my_file>
 ```
 
 ## Parse json from command line
+[Useful documentation](https://programminghistorian.org/en/lessons/json-and-jq)
 Use `jq`command to parse output
 Example:
 ```bash
