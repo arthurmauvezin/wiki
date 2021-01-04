@@ -43,3 +43,8 @@ az ad sp create-for-rbac --scopes subscriptions/<subscription_id>/resourceGroups
 ```bash
 mkdir -p /home/<user>/.docker/ && echo "{\"auths\": {\"registry\": {\"auth\": \"<token>\"}}}" > /home/<user>/.docker/config.json
 ```
+
+## Get list of organization and emails
+```bash
+az account list --query '[].[name, user.name]'
+```

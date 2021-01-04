@@ -54,7 +54,10 @@ plugins:
     #- awesome-pages
 
 nav:
-  - Home: index.md
+  - Home: 
+  - 'Welcome': 'home/welcome.md' 
+  - 'Usage': 'home/usage.md' 
+  - 'Culture': 'home/culture.md' 
   - Agility:
     - 'Tools': 'agility/tools.md'
   - Azure:
