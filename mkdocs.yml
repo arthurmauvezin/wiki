@@ -55,9 +55,9 @@ plugins:
 
 nav:
   - Home: 
-  - 'Welcome': 'home/welcome.md' 
-  - 'Usage': 'home/usage.md' 
-  - 'Culture': 'home/culture.md' 
+    - 'Welcome': 'home/welcome.md' 
+    - 'Usage': 'home/usage.md' 
+    - 'Culture': 'home/culture.md' 
   - Agility:
     - 'Tools': 'agility/tools.md'
   - Azure:
