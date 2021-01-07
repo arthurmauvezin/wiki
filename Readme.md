@@ -1,5 +1,8 @@
 # Documentation project 
 
+The goal of this documentation is to stop stack overflow syndrom (going to same page every time I search for something, and re-reading full page) and capitalize on all stuff I learn here instead.
+This documentation is available at: https://wiki.autopdutop.fr
+
 ## Usage
 
 [Official installation Guide](http://www.mkdocs.org/)
