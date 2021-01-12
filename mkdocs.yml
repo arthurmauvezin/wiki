@@ -2,9 +2,15 @@ site_name: Documentation
 site_description: Open source documentation about IT tools and other stuff
 site_author: arthurmauvezin
 site_url: https://wiki.autopdutop.fr/
+site_description: >-
+  Create a branded static site from a set of Markdown files to host the
+  documentation of your Open Source or commercial project – customizable,
+  searchable, mobile-friendly, 40+ languages
 
 repo_name: arthurmauvezin/wiki
 repo_url: https://github.com/arthurmauvezin/wiki
+
+copyright: Copyright &copy; 2015 - 2021 Arthur Mauvezin
 
 docs_dir: 'docs'
 
@@ -17,7 +23,8 @@ theme:
     primary: orange
     accent: deep orange
   features:
-    - tabs
+    - navigation.tabs
+    - navigation.sections
   icon:
     logo: fontawesome/brands/wikipedia-w
 
