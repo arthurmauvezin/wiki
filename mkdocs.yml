@@ -1,6 +1,7 @@
 site_name: Documentation
 site_description: Open source documentation about IT tools and other stuff
 site_author: arthurmauvezin
+site_url: https://wiki.autopdutop.fr/
 
 repo_name: arthurmauvezin/wiki
 repo_url: https://github.com/arthurmauvezin/wiki
@@ -38,15 +39,15 @@ markdown_extensions:
   - codehilite        # Color in snippet, line number, highlight line
   - toc:             # Add anchor to all titles 
       permalink: true
-  - pymdownx.critic
-  - pymdownx.details
+  - pymdownx.details # Add collapsible elements
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
+  - pymdownx.magiclink # Auto create clickable links
+  - pymdownx.superfences # Allow to nest fences (code blocks) into anything. Also use UML directly
+  - pymdownx.tabbed # Create tab structure
+  - pymdownx.tasklist: # Create task list with already checked items
       custom_checkbox: true
 
 plugins:
@@ -54,52 +55,54 @@ plugins:
     #- awesome-pages
 
 nav:
-  - Home: 
-    - 'Welcome': 'home/welcome.md' 
-    - 'Usage': 'home/usage.md' 
-    - 'Culture': 'home/culture.md' 
-  - Agility:
-    - 'Tools': 'agility/tools.md'
-  - Azure:
-    - 'CLI': 'azure/azure.md'
-    - 'DevOps': 'azure/devops.md'
-  - Bash:
-    - 'Scripting': 'bash/scripting.md'
-    - 'CLI Shortcuts': 'bash/command_line_shortcut.md'
-  - Database:
-    - 'Postgres': 'database/postgres.md'
-  - Docker:
+  - 'Home': 'index.md'
+  - 'Culture & Tools':
+    - 'Culture': 'tools/culture.md' 
+    - 'Agility': 'tools/agility.md'
+    - 'Container & Orchestration': 'tools/containers.md'
+    - 'Hacking': 'tools/hacking.md'
+    - 'Machine learning': 'tools/machinelearning.md'
+    - 'Microsoft': 'tools/microsoft.md'
+    - 'No code': 'tools/nocode.md'
+    - 'Presentation': 'tools/presentation.md'
+    - 'Testing': 'tools/testing.md'
+    - 'Website': 'tools/website.md'
+  - 'Git': 
+    - 'Learn': 'git/learn.md'
+    - 'Useful': 'git/git.md'
+  - 'Container & Orchestration':
     - 'Setup': 'docker/setup.md'
     - 'Debug': 'docker/debug.md'
     - 'CLI': 'docker/command.md'
     - 'docker-compose': 'docker/compose.md'
     - 'Dockerfile': 'docker/dockerfile.md'
     - 'Template': 'docker/template.md'
-  - Fedora:
-    - 'System & Network': 'fedora/sysnet.md'
-    - 'Fix': 'fedora/fix.md'
-    - 'Setup': 'fedora/setup.md'
-  - Git: 
-    - 'Useful': 'git/git.md'
-  - Interview:
+    - 'Kubernetes': 'kubernetes/kubernetes.md'
+  - 'CI/CD':
+    - 'Jenkins':
+      - 'Jenkinsfile': 'jenkins/jenkinsfile.md'
+      - 'Libs': 'jenkins/lib.md'
+    - 'Azure DevOps': 'azure/devops.md'
+  - 'Ops':
+    - 'Bash':
+      - 'Scripting': 'bash/scripting.md'
+      - 'Shortcuts': 'bash/command_line_shortcut.md'
+    - 'Crontab': 'system/cron.md'
+    - 'Fedora':
+      - 'Fix': 'fedora/fix.md'
+      - 'Setup': 'fedora/setup.md'
+      - 'System & Network': 'fedora/sysnet.md'
+    - 'Network': 'network/network.md'
+    - 'Postgres': 'database/postgres.md'
+    - 'Python': 'python/python.md'
+    - 'System': 'system/system.md'
+    - 'tcpdump': 'network/tcpdump.md'
+  - 'Cloud':
+    - 'Azure CLI': 'azure/azure.md'
+  - 'Interview':
     - 'Question': 'interview/personal.md'
     - 'System Administration': 'interview/sysadmin.md'
-  - Jenkins:
-    - 'Jenkinsfile': 'jenkins/jenkinsfile.md'
-    - 'Libs': 'jenkins/lib.md'
-  - Kubernetes:
-    - 'Kubernetes': 'kubernetes/kubernetes.md'
-  - Network:
-    - 'Network': 'network/network.md'
-    - 'tcpdump': 'network/tcpdump.md'
-  - Presentation: 
-    - 'Tools': 'presentation/presentation.md'
-  - Python:
-    - 'Python': 'python/python.md'
-  - System:
-    - 'System': 'system/system.md'
-    - 'Crontab': 'system/cron.md'
-  - Vim:
+  - 'Vim':
     - 'Useful': 'vim/vim.md'
     - 'IDE': 'vim/ide.md'
     - 'Cheatsheet': 'vim/cheatsheet.md'

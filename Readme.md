@@ -46,3 +46,17 @@ alias wiki-stop='kill -9 $(pgrep -a mkdocs | cut -d '"'"' '"'"' -f 1)'
 alias wiki-reload='wiki-stop && wiki-start'
 alias wiki='if ! [[ $(pgrep -a mkdocs) ]]; then wiki-start; fi && google-chrome-stable --app=http://localhost:8000'
 ```
+
+### Help writing documentation
+* [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Extension: Note and warning block](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
+
+```
+!!! note
+    Example of note
+```
+
+```
+!!! failure
+    Example of failure
+```
