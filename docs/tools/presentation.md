@@ -6,6 +6,7 @@
 * [Asciinema](https://asciinema.org/)
 * Pandoc
 * [Diagrams as code](https://github.com/mingrammer/diagrams)
+* [Loopy](https://ncase.me/loopy/): a tool for thinking and represent system
 
 ## Render markdown in browser
 
@@ -30,3 +31,8 @@ mdview <file>.md
 [Python markdown editor](https://github.com/ncornette/Python-Markdown-Editor/) is a great tool when only having python on a computer or if you want simple markdwon edition.
 
 The best part is it integrates a VIM editor.
+
+## Diagram
+
+* [Lucidchart](https://www.lucidchart.com/)
+* [Cloudcraft](https://www.cloudcraft.co/) - Create smart AWS diagrams

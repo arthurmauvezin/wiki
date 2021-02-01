@@ -24,7 +24,6 @@ theme:
     accent: deep orange
   features:
     - navigation.tabs
-    - navigation.sections
   icon:
     logo: fontawesome/brands/wikipedia-w
 
@@ -100,6 +99,7 @@ nav:
       - 'Setup': 'fedora/setup.md'
       - 'System & Network': 'fedora/sysnet.md'
     - 'Network': 'network/network.md'
+    - 'Pass': 'system/passwordstore.md'
     - 'Postgres': 'database/postgres.md'
     - 'Python': 'python/python.md'
     - 'System': 'system/system.md'
