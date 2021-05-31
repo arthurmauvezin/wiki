@@ -10,4 +10,5 @@
 * play with kubernetes
 * katacoda
 * https://learnk8s.io/allocatable-resources
+* [Lens](https://k8slens.dev/) - Kubernetes IDE
 
