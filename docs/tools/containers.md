@@ -11,4 +11,5 @@
 * katacoda
 * https://learnk8s.io/allocatable-resources
 * [Lens](https://k8slens.dev/) - Kubernetes IDE
+* [Kubetools](https://collabnix.github.io/kubetools/)
 
