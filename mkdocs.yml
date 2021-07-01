@@ -108,6 +108,7 @@ nav:
     - 'tcpdump': 'network/tcpdump.md'
   - 'Cloud':
     - 'Azure CLI': 'azure/azure.md'
+    - 'Terraform': 'azure/terraform.md'
   - 'Interview':
     - 'Question': 'interview/personal.md'
     - 'System Administration': 'interview/sysadmin.md'
