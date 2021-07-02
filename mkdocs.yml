@@ -73,6 +73,8 @@ nav:
     - 'Presentation': 'tools/presentation.md'
     - 'Testing': 'tools/testing.md'
     - 'Website': 'tools/website.md'
+  - 'Agility': 
+    - 'Jira': 'jira/workflows.md'
   - 'Git': 
     - 'Learn': 'git/learn.md'
     - 'Useful': 'git/git.md'
