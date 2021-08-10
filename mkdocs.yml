@@ -109,6 +109,7 @@ nav:
     - 'Python': 'python/python.md'
     - 'System': 'system/system.md'
     - 'tcpdump': 'network/tcpdump.md'
+    - 'Windows': 'windows/setup.md'
   - 'Cloud':
     - 'Azure CLI': 'azure/azure.md'
     - 'Terraform': 'azure/terraform.md'
