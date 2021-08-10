@@ -41,7 +41,7 @@ ssh-keygen -t rsa -C arthur.mauvezin@gmail.com
         name = Arthur MAUVEZIN
 ```
 
-`~/.giconfig`
+`~/.gitconfig`
 ```ini
 [includeIf "gitdir:~/company/"]
   path = .gitconfigs/company.gitconfig
@@ -91,6 +91,26 @@ In `~/.zshrc`, modify:
 
 * theme to `bira`
 * add plugins: git docker gitignore
+
+#### Setup useful scripts
+Create folder
+```bash
+mkdir .oh-my-zsh/functions
+```
+
+Add following line to `~/.zshrc`
+```bash
+autoload -Uz $ZSH/functions/*(.:t)
+```
+
+Source `~/.zshrc` file
+```bash
+source ~/.zshrc
+```
+
+Now, all files put in `~/.oh-my-zsh/functions` folder will be available as commands
+
+See [this kind of file](https://gist.github.com/arthurmauvezin/694d1b9ee1cbb3d82b40d0f05f0238a4) for example
 
 
 
