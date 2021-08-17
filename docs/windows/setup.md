@@ -46,6 +46,7 @@ ssh-keygen -t rsa -C arthur.mauvezin@gmail.com
 Add the content of the public key (`~/.ssh/id_rsa.pub`) to [your Github account keys](https://github.com/settings/keys)
 
 #### Setup .gitconfig
+The following setup allow you to use multiple git account depending on your current folder
 
 `~/.gitconfigs/company.gitconfig`
 ```ini
@@ -83,13 +84,15 @@ Add the content of the public key (`~/.ssh/id_rsa.pub`) to [your Github account 
 	sth = stash
 [credential]
 	helper = cache --timeout=604800
-[init]
-	templatedir = ~/.git_template
 [diff]
 	submodule = log
 [status]
 	submodulesummary = 1
 ```
+
+#### [Optional] Download Jira precommit hook to automatically add issue number to commit message
+
+Follow instructions written in the [Github's Readme](https://github.com/arthurmauvezin/git-hooks-prepare-commit-jira)
 
 ### Python
 ```bash
@@ -105,12 +108,20 @@ python -V
     If the last command prompts something like `Python 3.8.10`, then it's good :smile: !
 
 ### oh-my-zsh
+
+#### Install ZSH
 ```bash
 sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-#### Follow [official instructions](https://ohmyz.sh/#install)
+!!! warning
+    Upon opening a terminal for the first time after this change, you will be prompted for a setup wizard with many options. Just select the option `2` and you should be good.
+
+#### Install Oh-My-Zsh
+
+Follow [official instructions](https://ohmyz.sh/#install)
+
 In `~/.zshrc`, modify:
 
 * theme to `bira`
@@ -119,7 +130,12 @@ In `~/.zshrc`, modify:
 #### Setup useful scripts
 Create folder
 ```bash
-mkdir .oh-my-zsh/functions
+mkdir -p .oh-my-zsh/functions
+```
+
+Download this sample functions which allow you to create dumb commits for lab examples
+```bash
+curl https://gist.githubusercontent.com/arthurmauvezin/694d1b9ee1cbb3d82b40d0f05f0238a4/raw/e351f77657f442d86ae8d691ea6f8811df0962b1/gencommit -o .oh-my-zsh/functions/gencommit
 ```
 
 Add following line to `~/.zshrc`
