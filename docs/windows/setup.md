@@ -2,6 +2,18 @@
 
 Here is a little reminder to setup windows for power users (aka. with Linux on it :smile: )
 
+## [Optional] Rename your laptop
+If you want to have a clean/cool prompt, you should change your laptop default name (most of the time something like: DESKTOP-458DF)  to a new one (a short name of your choice).
+
+* Go to `Start > Settings > System > About`
+* Click on `Rename this PC`
+* Restart your computer
+
+## [Optional] Rename your user folder
+As the last step, if you want to have a clean/cool prompt, you should change your windows user folder if it is truncated (that was the case for me. eg. `arthu` instead of wanted username `arthy`).
+
+To do so, follow [this article](https://www.minitool.com/news/change-user-folder-name-windows-10.html)
+
 ## Install Windows Subsystem for Linux (WSL 2)
 Follow [this article](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to install Ubuntu within your windows
 
@@ -10,11 +22,17 @@ Follow [this article](https://docs.microsoft.com/en-us/windows/wsl/install-win10
 ## Install Windows terminal
 If you want to use a great terminal, [install new Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/get-started)
 
+You may want to change some settings:
+
+* Update `Default profile` to Ubuntu to start it when you open Windows terminal
+* In `Ubuntu` profile, go to `Appearance` to `change cursor shape` to `filled box` - this helps on vim prompt
+* If listenings windows bells sound is not your hobby, I suggest you to change it to flash. To do so, in `Ubuntu` profile, go to `Advanced` to change `Bell notification style` to `Flash window`
+* Do not forget to save your changes in `Settings` page
+
 ## Install Visual Studio Code and setup it
 * [Install VS Code](https://code.visualstudio.com/docs/?dv=win)
 * [Install wsl code extension and learn to use it](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 * [Setup VS Code to use Docker remote container](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
-
 
 ## Setup Ubuntu
 ### Git
@@ -25,14 +43,9 @@ Setup Git with [this link](https://docs.microsoft.com/en-us/windows/wsl/tutorial
 ssh-keygen -t rsa -C arthur.mauvezin@gmail.com
 ```
 
-#### Setup .gitconfig
+Add the content of the public key (`~/.ssh/id_rsa.pub`) to [your Github account keys](https://github.com/settings/keys)
 
-`~/.gitconfigs/perso.gitconfig`
-```ini
-[user]
-        email = arthur.mauvezin@gmail.com
-        name = Arthur MAUVEZIN
-```
+#### Setup .gitconfig
 
 `~/.gitconfigs/company.gitconfig`
 ```ini
@@ -43,10 +56,13 @@ ssh-keygen -t rsa -C arthur.mauvezin@gmail.com
 
 `~/.gitconfig`
 ```ini
+[user]
+        email = arthur.mauvezin@gmail.com
+        name = Arthur MAUVEZIN
+
+# Use includeIf to commit with different accounts depending on the parent folder
 [includeIf "gitdir:~/company/"]
   path = .gitconfigs/company.gitconfig
-[includeIf "gitdir:~/perso/"]
-  path = .gitconfigs/perso.gitconfig
 
 [push]
 	default = simple
@@ -79,6 +95,14 @@ ssh-keygen -t rsa -C arthur.mauvezin@gmail.com
 ```bash
 sudo apt install python3 python3-pip python-is-python3
 ```
+
+Test the installation with the following command:
+```bash
+python -V
+```
+
+!!! information
+    If the last command prompts something like `Python 3.8.10`, then it's good :smile: !
 
 ### oh-my-zsh
 ```bash
