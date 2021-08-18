@@ -27,10 +27,12 @@ You may want to change some settings:
 * Update `Default profile` to Ubuntu to start it when you open Windows terminal
 * In `Ubuntu` profile, go to `Appearance` to `change cursor shape` to `filled box` - this helps on vim prompt
 * If listenings windows bells sound is not your hobby, I suggest you to change it to flash. To do so, in `Ubuntu` profile, go to `Advanced` to change `Bell notification style` to `Flash window`
+* In `Ubuntu` profile, go to `General` to `Starting directory` to `\\wsl$\Ubuntu\home\arthy` - change `arthy` by your home folder name
 * Do not forget to save your changes in `Settings` page
 
 ## Install Visual Studio Code and setup it
 * [Install VS Code](https://code.visualstudio.com/docs/?dv=win)
+* Install vim extension in VSCode (`vscodevim`)
 * [Install wsl code extension and learn to use it](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 * [Setup VS Code to use Docker remote container](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
 
