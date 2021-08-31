@@ -2,6 +2,7 @@
 
 ## Culture
 * [Why Should I Care What Color the Bikeshed Is?](http://bikeshed.com/): An inspirational article about how people tend to give their opinion on really simple tasks (and why you shouldn't :smile: )
+* [The then commandments of egoless programming](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 * [Scrum and XP from the Trenches](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2/): Very practical war story on Scrum and XP
 * [Les géants du web](https://www.octo.com/publications/11-les-geants-du-web/)
 * [Why devops is not a job](https://medium.com/metrosystemsro/a-study-towards-understanding-the-job-titles-in-a-devops-world-fad544604ff)
