@@ -228,3 +228,9 @@ curl -X GET "<url>" | jq
 ```bash
 output | jq ".[].project_id"
 ```
+
+### Get the sum of array with jq
+output | jq -s add/length
+
+### Get max value of array with jq
+output | jq max
