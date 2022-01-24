@@ -62,11 +62,11 @@ plugins:
 
 nav:
   - 'Home': 'index.md'
-  - 'Kira': 'kira.md'
   - 'Culture & Tools':
     - 'Culture': 'tools/culture.md' 
     - 'Agility': 'tools/agility.md'
     - 'Container & Orchestration': 'tools/containers.md'
+    - 'Cloud': 'tools/cloud.md' 
     - 'Hacking': 'tools/hacking.md'
     - 'Machine learning': 'tools/machinelearning.md'
     - 'Microsoft': 'tools/microsoft.md'
@@ -120,3 +120,5 @@ nav:
     - 'Useful': 'vim/vim.md'
     - 'IDE': 'vim/ide.md'
     - 'Cheatsheet': 'vim/cheatsheet.md'
+  - 'Games':
+    - 'Kira': 'games/kira.md'
