@@ -2,6 +2,12 @@
 
 Le but de link est de trouver qui fait partie de votre équipe sans donner d'indices aux équipes adverse sur votre mot
 
+## Récupération des cartes
+
+* **A-H**: Sarah
+* **I-M**: Patricia
+* **N-Z**: Arthur
+
 ## Règles
 
 * Vous ne devez **jamais montrer votre carte**
