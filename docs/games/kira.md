@@ -2,7 +2,7 @@
 
 ##General
 * Vous devez cacher votre papier dès le début pour que personne ne puisse le trouver
-* Si vous avez une question, allez voir Clara ou Arthur
+* Si vous avez une question, allez voir un admin
 * On fera une premier tour d'annonce des kills vers dimanche midi
 
 ##Votre kill
