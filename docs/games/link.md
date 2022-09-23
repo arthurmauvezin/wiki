@@ -4,9 +4,9 @@ Le but de link est de trouver qui fait partie de votre équipe sans donner d'ind
 
 ## Règles
 
-* Vous ne devez pas montrer votre carte
-* Vous ne devez pas dire le mot qui est sur votre carte
-* Vous devez trouver les membres de votre équipe en donnant des indices sur votre mot tout en restant vague
+* Vous ne devez **jamais montrer votre carte**
+* Vous ne devez **jamais dire le mot** qui est sur votre carte
+* Vous devez **trouver les membres de votre équipe** en donnant des indices sur votre mot tout en restant vague pour ne pas vous faire démasquer
 * Dès que vous pensez avoir trouvé un membre de votre équipe, déplacez vous ensemble pour faire grossir votre équipe
 
 ## Résolution

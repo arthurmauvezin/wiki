@@ -2,8 +2,7 @@
 
 ##General
 * Vous devez cacher votre papier dès le début pour que personne ne puisse le trouver
-* Si vous avez une question, allez voir un admin
-* On fera une premier tour d'annonce des kills vers dimanche midi
+* Si vous avez une question, allez voir un admin (ou criez "ARTHOUUUUUUR")
 
 ##Votre kill
 * Vous n'êtes pas obligé d'avoir un témoin pour valider votre kill
