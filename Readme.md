@@ -21,12 +21,6 @@ git clone https://github.com/arthurmauvezin/wiki.git
 pip install --user -r requirements.txt
 ```
 
-### Add command to path
-```bash
-sudo cp install/mkdocs /usr/local/bin
-sudo chmod 755 /usr/local/bin/mkdocs
-```
-
 ### Start server
 ```bash
 python -m mkdocs serve
@@ -34,7 +28,7 @@ python -m mkdocs serve
 
 ### Build site
 ```bash
-mkdocs build
+python -m mkdocs build
 ```
 
 ### Useful Aliases (add to .bashrc or .zshrc)

@@ -94,6 +94,7 @@ nav:
     - 'Azure DevOps': 'azure/devops.md'
   - 'Dev':
     - 'es6': 'javascript/es6.md'
+    - 'Markdown': 'tools/markdown.md'
   - 'Ops':
     - 'Bash':
       - 'Scripting': 'bash/scripting.md'
