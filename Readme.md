@@ -18,7 +18,7 @@ git clone https://github.com/arthurmauvezin/wiki.git
 
 ### Install Mkdocs and themes
 ```bash
-pip install --user mkdocs mkdocs-material pygments
+pip install --user -r requirements.txt
 ```
 
 ### Add command to path
@@ -29,8 +29,7 @@ sudo chmod 755 /usr/local/bin/mkdocs
 
 ### Start server
 ```bash
-cd wiki
-mkdocs serve
+python -m mkdocs serve
 ```
 
 ### Build site
