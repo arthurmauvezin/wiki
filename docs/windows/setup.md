@@ -37,6 +37,29 @@ You may want to change some settings:
 * [Setup VS Code to use Docker remote container](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
 
 ## Setup Ubuntu
+### Vim
+```bash
+apt install vim
+```
+
+To change cursor as standard in vim, paste the following code in `~/.vimrc`:
+```
+" cursor shape
+if &term =~? 'rxvt' || &term =~? 'xterm' || &term =~? 'st-'
+    " 1 or 0 -> blinking block
+    " 2 -> solid block
+    " 3 -> blinking underscore
+    " 4 -> solid underscore
+    " Recent versions of xterm (282 or above) also support
+    " 5 -> blinking vertical bar
+    " 6 -> solid vertical bar
+    " Insert Mode
+    let &t_SI .= "\<Esc>[6 q"
+    " Normal Mode
+    let &t_EI .= "\<Esc>[2 q"
+endif
+```
+
 ### Git
 Setup Git with [this link](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-git)
 
